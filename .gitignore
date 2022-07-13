@@ -1,5 +1,6 @@
 # Front-end images, removed for copyright reasons
-.public/images
+public/images
+.png
 
 # VSCode settings, personalised for this project
 .vscode
