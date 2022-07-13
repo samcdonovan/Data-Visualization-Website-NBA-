@@ -1,0 +1,231 @@
+* {
+    font-family: "Courier New";
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    clear: both;
+    min-height: 100%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    margin: auto;
+    height: 100%;
+    margin: 0;
+    background-image: url('../images/background.png');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {
+    position: absolute;
+    clear: both;
+    width: 100%;
+    height: 90px;
+    margin-bottom: -200px;
+    line-height: 25px;
+    left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.logo, .logo img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 295px;
+    height: 295px;
+    right: 35%;
+    bottom: 17%;
+}
+
+.logo {
+    position: relative;
+    top: 10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solig;
+    border-radius: 50%;
+    background-color: RGB(200, 83, 0);
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 0 0 4px black;
+}
+
+#description {
+    position: relative;
+    width: 450px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    left: -5px;
+    border-style: solid;
+    padding: px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#descriptionPara {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px orange,
+        1px 1px 1px orange;
+    text-align: center;
+}
+
+#chart {
+    width: 61%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#sentimentChart {
+    position: relative;
+    width: 61%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    bottom: 30px;
+}
+
+footer p, a {
+    font-size: 14px;
+}
+
+footer h {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.team-logo-div {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 3%;
+    top: 40%
+}
+
+.team-logo-div img {
+    display: none;
+
+}
+
+.team-logo-div img[src] {
+    width: 210px;
+    height: 210px;
+    display: block;
+}
+
+div h1 {
+    text-align: center;
+}
+
+.team-select {
+    background-color: #fa8128;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 3%;
+    transition: transform .3s;
+    border: 3px solid white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.team-select:hover, .team-select:focus {
+    background-color: orangered;
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+#dropdown {
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
+    left: 0px;
+    width: 10%;
+    height: 5%;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.drop-select {
+    width: 80%;
+    font-size: 17px;
+    text-align: center;
+}
+
+.drop-select img {
+    position: relative;
+    top: 5px;
+    width: inherit;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    right: 5%;
+}
+
+.drop-select span {
+    display: inline-flex;
+    width: 50%;
+    height: 10%;
+    margin-top: 17%;
+    left: 50%;
+
+}
+
+.dropdown-links {
+    display: none;
+    background-color: #f1f1f1;
+    border-style: solid;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+.dropdown-links button {
+    color: black;
+    background-color: floralwhite;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.drop-select:hover {
+    background-color: blanchedalmond;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+    position: absolute;
+    visibility: hidden;
+}

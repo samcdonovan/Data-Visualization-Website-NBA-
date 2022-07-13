@@ -1,0 +1,21 @@
+{
+  "name": "datavisualisation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1063.0",
+    "axios": "^0.25.0",
+    "dotenv": "^15.0.0",
+    "moment": "^2.29.1",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12"
+  }
+}

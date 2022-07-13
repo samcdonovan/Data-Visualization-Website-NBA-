@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Dunkin' Data</title>
+
+    <link rel="icon" href="data:image/svg+xml,
+    <svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
+        <text y=%22.9em%22 font-size=%2290%22>🏀</text></svg>">
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="./client.js"></script>
+
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <div class="inner-circle"></div>
+            <img src="./images/logo.png" alt="LOGO">
+        </div>
+
+    </header>
+
+    <div id="app">
+
+        <div class="team-logo-div">
+            <img id="team-logo">
+        </div>
+
+        <div class="dropdown" id="dropdown">
+            <button onclick="dropdown()" class="team-select">SELECT TEAM</button>
+            <div id="dropdown-menu" class="dropdown-links">
+                <button class="drop-select" onclick="showData('Atlanta Hawks');">
+                    <img class="drop-logo" src="./images/atlanta_hawks.png">
+                    <span>HAWKS</span>
+
+                </button>
+                <button class="drop-select" onclick="showData('Chicago Bulls');">
+                    <img class="drop-logo" src="./images/chicago_bulls.png">
+                    <span>BULLS</span>
+
+                </button>
+                <button class="drop-select" onclick="showData('Philadelphia 76ers');">
+                    <img class="drop-logo" src="./images/philadelphia_76ers.png">
+                    <span>76ERS</span>
+
+                </button>
+                <button class="drop-select" onclick="showData('Boston Celtics');">
+                    <img class="drop-logo" src="./images/boston_celtics.png">
+                    <span>CELTICS</span>
+
+                </button>
+                <button class="drop-select" onclick="showData('Brooklyn Nets');">
+                    <img class="drop-logo" src="./images/brooklyn_nets.png">
+                    <span>NETS</span>
+
+                </button>
+            </div>
+        </div>
+
+        <div id="description">
+            <div id="descriptionPara">
+                <p>Welcome to Dunkin' Data, the site for all your data visualization needs! Just use the drop-down menu
+                    above to select a team and view data for that team. Enjoy!
+                </p>
+            </div>
+            <div id="descriptionBackground"></div>
+        </div>
+
+        <div id="chart"></div>
+
+        <div id="sentimentChart"></div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+# Front-end images, removed for copyright reasons
+.public/images
+
+# VSCode settings, personalised for this project
+.vscode
+
+# File containing environment variables
+.env
+
+# Folder containing all of the node modules
+node_modules
