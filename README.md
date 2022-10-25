@@ -9,10 +9,6 @@
 
 ---
 
-<p align="center"> A price comparison website, centered around video games. Displays the price tags of a particular title from various websites.
-    <br> 
-</p>
-
 ## 📝 Table of Contents
 - [About](#about)
 - [Libraries/Frameworks/Services](#built_using)
