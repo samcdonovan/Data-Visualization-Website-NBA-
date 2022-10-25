@@ -18,11 +18,11 @@
 - [Libraries/Frameworks/Services](#built_using)
 - [Authors](#authors)
 
-## 🧐 About <a name = "about"></a>
+## ℹ️ About <a name = "about"></a>
 
 This website allows the user to view charts displaying data about different teams that are currently playing in the NBA. The types of data that are displayed are numerical data (score difference for each match), predictions about that numerical data (score difference for future matches) and the results of sentiment analysis of Tweets (about the teams). The data for these teams was extracted from the free API service BallDontLie (https://www.balldontlie.io/#introduction). This included information about each match: mainly the scores, the team they were playing against, and the date of the match. A Twitter Developer account was required to collect the Tweets about each team for sentiment analysis. 
 
-## ⛏️ Libraries/Frameworks/Services <a name = "built_using"></a>
+## 💻 Libraries/Frameworks/Services <a name = "built_using"></a>
 ## AWS
 - [Sagemaker](https://aws.amazon.com/sagemaker/): Machine learning with the DeepAR algorithm, used for predictions about future data
 - [Comprehend](https://aws.amazon.com/comprehend/): Machine learning sentiment analysis tool, used to generate sentiment values for Tweets about the NBA teams
@@ -38,4 +38,3 @@ This website allows the user to view charts displaying data about different team
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@samcdonovan](https://github.com/samcdonovan)
-- 
