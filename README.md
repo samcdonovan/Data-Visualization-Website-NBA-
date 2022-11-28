@@ -24,7 +24,7 @@ This website allows the user to view charts displaying data about different team
 - [Comprehend](https://aws.amazon.com/comprehend/): Machine learning sentiment analysis tool, used to generate sentiment values for Tweets about the NBA teams
 - [WebSockets](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html): For connecting multiple users to the website and updating the graph plots when new data is inserted in the database
 - [DynamoDB](https://aws.amazon.com/dynamodb/): For storing data about the teams, predictions for that data, WebSocket connection IDs, Tweets and sentiment values of those Tweets
-- [S3](https://aws.amazon.com/s3/): For storing all public files for the front-end of the website, and hosting the website on a public UR
+- [S3](https://aws.amazon.com/s3/): For storing all public files for the front-end of the website, and hosting the website on a public URL
 - [Lambda](https://aws.amazon.com/lambda/): Used multiple Lambda triggers: on client connection, connection ID is inserted into a table; on client disconnection, connection ID is deleted from the table; when new data is inserted or deleted, it is then resent to all connected clients; when new prediction data is created, it is resent to all connected clients
 ## JavaScript
 - [TypeScript](https://www.typescriptlang.org/)
